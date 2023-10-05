@@ -1,0 +1,19 @@
+.App {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+.App h1{
+    margin-bottom: 2rem;
+}
+@media (max-width: 720px){
+    .App {
+        padding-top: 10px;
+    }
+    .App h1{
+        margin-bottom: 5px;
+    }
+}
